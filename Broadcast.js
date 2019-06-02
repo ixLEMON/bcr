@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
   const kboosh = new Discord.Client();
-    const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
+    const kbooshtoken = "Mzg2ODk0MzcwODY5MDg0MTYw.XPL7SQ.adpcgvSjF6U167Z28DMGJzeb4WY"
       kboosh.on('ready', () => {
         kboosh.user.setGame(`KBOOSH TEST Broadcast`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
@@ -20,7 +20,7 @@
             
                                                   });
    kboosh.on("message", message => {
-       var prefix = "%";
+       var prefix = "!";
  
              var args = message.content.substring(prefix.length).split(" ");
                 if (message.content.startsWith(prefix + "b")) {
