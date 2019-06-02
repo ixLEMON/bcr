@@ -1,2 +1,2 @@
 node Broadcast.js
-pause
+start
