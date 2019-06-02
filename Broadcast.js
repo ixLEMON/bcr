@@ -8,7 +8,7 @@
         });
 
   kboosh.on('message', message => {
-    if (message.content.split(' ')[0] == '%k')
+    if (message.content.split(' ')[0] == 'r!')
        message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 
@@ -45,4 +45,4 @@
                             }
                           }
 });
-kboosh.login("NTg0NzMyMDk2NDg1MTMwMjQx.XPPP9w.NRm9nnzWDgt9b1WXhf98mJdI-GI");
+kboosh.login(TOKEN);
